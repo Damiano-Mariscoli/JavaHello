@@ -1,7 +1,11 @@
 package org.lesson.java;
 
+import java.util.Scanner;
+
 public class ClasseProva {
     public static void main(String[] args){
-        System.out.println("Io sono la classe di prova 2");
+       Scanner input = new Scanner(System.in);
+       String inputInserito = input.nextLine();
+       System.out.println(inputInserito);
     }
 }
